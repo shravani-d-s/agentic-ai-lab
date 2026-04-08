@@ -1,6 +1,6 @@
-# 🤖 Agentic AI Lab
+#  Agentic AI Lab
 
-## 📌 Overview
+##  Overview
 
 This project demonstrates the development of **Agentic AI systems**, where an AI agent can autonomously perform tasks using reasoning, decision-making, tool usage, and planning.
 
@@ -8,7 +8,7 @@ The project is divided into four progressive assignments, each introducing a new
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 agentic-ai-lab/
 │
@@ -20,82 +20,82 @@ agentic-ai-lab/
 
 ---
 
-## 🚀 Day 1: Rule-Based AI Agent
+##  Day 1: Rule-Based AI Agent
 
-### 🔹 Description
+###  Description
 
 A simple agent that uses **if-else conditions** to identify user intent and perform actions.
 
-### 🔹 Features
+###  Features
 
 * Greeting response
 * Current date retrieval
 * Basic arithmetic calculations
 
-### 🔹 Key Concept
+###  Key Concept
 
 Input → Decision → Action → Output
 
 ---
 
-## 🛠️ Day 2: Tool-Using AI Agent
+##  Day 2: Tool-Using AI Agent
 
-### 🔹 Description
+###  Description
 
 Introduces **modular tools**, where the agent selects and uses external functions.
 
-### 🔹 Tools Implemented
+###  Tools Implemented
 
 * Calculator
 * Date function
 * Text summarizer
 
-### 🔹 Key Concept
+###  Key Concept
 
 Agent → Tool Selection → Tool Execution
 
 ---
 
-## 🧠 Day 3: LLM-Based AI Agent
+##  Day 3: LLM-Based AI Agent
 
-### 🔹 Description
+###  Description
 
 Replaces rule-based decision logic with a **Large Language Model (LLM)** for intelligent tool selection.
 
-### 🔹 Technologies
+###  Technologies
 
 * LangChain
 * Groq API (LLaMA model)
 
-### 🔹 Key Concept
+###  Key Concept
 
 User Input → LLM Reasoning → Tool Selection → Output
 
 ---
 
-## 🔄 Day 4: Multi-Step Planning Agent
+##  Day 4: Multi-Step Planning Agent
 
-### 🔹 Description
+###  Description
 
 Implements an agent capable of solving **multi-step problems** by breaking them into smaller tasks.
 
-### 🔹 Example Task
+###  Example Task
 
 “Find the average of numbers and summarize the result”
 
-### 🔹 Steps Performed
+###  Steps Performed
 
 1. Extract numbers
 2. Compute average
 3. Generate summary
 
-### 🔹 Key Concept
+###  Key Concept
 
 Planning → Sequential Execution → Final Output
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 * Python 3
 * LangChain
@@ -104,7 +104,7 @@ Planning → Sequential Execution → Final Output
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Setup Environment
 
@@ -135,7 +135,7 @@ cd ../day4 && python3 agent.py
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 * Understanding of AI agent architecture
 * Implementation of rule-based systems
@@ -145,14 +145,14 @@ cd ../day4 && python3 agent.py
 
 ---
 
-## ⚠️ Security Note
+##  Security Note
 
 API keys are not included in this repository.
 Use a `.env` file or environment variables to store sensitive information securely.
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 
 This project demonstrates the evolution of AI agents from simple rule-based systems to intelligent, autonomous agents capable of reasoning, tool usage, and multi-step planning.
 
