@@ -1,0 +1,159 @@
+# 🤖 Agentic AI Lab
+
+## 📌 Overview
+
+This project demonstrates the development of **Agentic AI systems**, where an AI agent can autonomously perform tasks using reasoning, decision-making, tool usage, and planning.
+
+The project is divided into four progressive assignments, each introducing a new capability of AI agents.
+
+---
+
+## 🗂️ Project Structure
+
+agentic-ai-lab/
+│
+├── day1/  → Rule-Based AI Agent
+├── day2/  → Tool-Using AI Agent
+├── day3/  → LLM-Based AI Agent (LangChain + Groq)
+├── day4/  → Multi-Step Planning Agent
+└── venv/
+
+---
+
+## 🚀 Day 1: Rule-Based AI Agent
+
+### 🔹 Description
+
+A simple agent that uses **if-else conditions** to identify user intent and perform actions.
+
+### 🔹 Features
+
+* Greeting response
+* Current date retrieval
+* Basic arithmetic calculations
+
+### 🔹 Key Concept
+
+Input → Decision → Action → Output
+
+---
+
+## 🛠️ Day 2: Tool-Using AI Agent
+
+### 🔹 Description
+
+Introduces **modular tools**, where the agent selects and uses external functions.
+
+### 🔹 Tools Implemented
+
+* Calculator
+* Date function
+* Text summarizer
+
+### 🔹 Key Concept
+
+Agent → Tool Selection → Tool Execution
+
+---
+
+## 🧠 Day 3: LLM-Based AI Agent
+
+### 🔹 Description
+
+Replaces rule-based decision logic with a **Large Language Model (LLM)** for intelligent tool selection.
+
+### 🔹 Technologies
+
+* LangChain
+* Groq API (LLaMA model)
+
+### 🔹 Key Concept
+
+User Input → LLM Reasoning → Tool Selection → Output
+
+---
+
+## 🔄 Day 4: Multi-Step Planning Agent
+
+### 🔹 Description
+
+Implements an agent capable of solving **multi-step problems** by breaking them into smaller tasks.
+
+### 🔹 Example Task
+
+“Find the average of numbers and summarize the result”
+
+### 🔹 Steps Performed
+
+1. Extract numbers
+2. Compute average
+3. Generate summary
+
+### 🔹 Key Concept
+
+Planning → Sequential Execution → Final Output
+
+---
+
+## ⚙️ Technologies Used
+
+* Python 3
+* LangChain
+* Groq API
+* python-dotenv
+
+---
+
+## ▶️ How to Run
+
+### 1. Setup Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install langchain-openai python-dotenv
+```
+
+---
+
+### 2. Set API Key (for Day 3)
+
+```bash
+export GROQ_API_KEY="your_api_key_here"
+```
+
+---
+
+### 3. Run Each Assignment
+
+```bash
+cd day1 && python3 agent.py
+cd ../day2 && python3 agent.py
+cd ../day3 && python3 agent.py
+cd ../day4 && python3 agent.py
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+* Understanding of AI agent architecture
+* Implementation of rule-based systems
+* Integration of tools with AI agents
+* Use of LLMs for intelligent decision-making
+* Designing multi-step planning systems
+
+---
+
+## ⚠️ Security Note
+
+API keys are not included in this repository.
+Use a `.env` file or environment variables to store sensitive information securely.
+
+---
+
+## 🧠 Conclusion
+
+This project demonstrates the evolution of AI agents from simple rule-based systems to intelligent, autonomous agents capable of reasoning, tool usage, and multi-step planning.
+
+---
